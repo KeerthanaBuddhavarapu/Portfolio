@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(38, 5, 68);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x:hidden;/*to hide extra web unwanted webpage (horizontal scroll bar)*/
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(152, 181, 247);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+/*to remove highlighting of link for home,about,projects,contact*/
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.03rem;
+}
+
+main hr {
+    border: 0;
+    background: white;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+    height:60vh;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    color: white;
+    font-size: 30px;
+
+}
+
+.btn {
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(152, 181, 247);
+    border: 2px solid;
+    border-color: white;
+    cursor: pointer;
+
+}
+
+.buttons .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.leftSection .buttons {
+    padding: 10%;
+
+}
+
+.rightSection img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.orange {
+    color: orange;
+}
+
+.pink {
+    color: pink;
+}
+
+.pink ul li {
+    position: relative;
+    padding-right: 180%;
+}
+
+.secondSection .li {
+    padding: 20%;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.gray {
+    color: rgb(152, 181, 247);
+}
+
+#element {
+    color: orange;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondSection h1 {
+    font-size: 30px;
+    color: rgb(152, 181, 247);
+}
+
+/*.vertical-title {
+    position: relative;
+    left: 75px;
+    top: 20px;
+    width: 200px;
+}*/
+
+.vertical-desc {
+    position: relative;
+    left: 400px;
+    top: -40px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.vertical-desc ul li {
+    position: relative;
+    left: 40%;
+    color: rgb(152, 181, 247);
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.thirdSection h1 {
+    font-size: 30px;
+    color: rgb(157, 181, 238);
+}
+
+.thirdsection-desc h2 {
+    color: aquamarine;
+    font-style: italic;
+    position: relative;
+    left: 400px;
+    top: -40px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.thirdsection-desc ul li {
+    position: relative;
+    left: 430px;
+    top: -40px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.thirdsection-desc2 h2 {
+    color: aquamarine;
+    font-style: italic;
+    position: relative;
+    left: 68%;
+    top: -320px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.thirdsection-desc2 ul li {
+    position: relative;
+    left: 70%;
+    top: -320px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.fourthSection-desc {
+    display: grid;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.fourthSection {
+    color: rgb(152, 181, 247);
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+.specialSection-desc {
+    display: grid;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.specialSection {
+    color: rgb(152, 181, 247);
+    max-width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+.specialSection-desc {
+    position: relative;
+    left: 400px;
+    top: -40px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.projects-list {
+    font-size: 20px;
+    grid-gap: 60px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    height:50vh;
+}
+
+.projects-list div{
+    background-color: transparent;
+    position: relative;
+    padding: 30px;
+    padding-right:5px;
+    font-size: 20px;
+    max-width: 300px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 5px #052278f7,
+        1px 1px 20px;
+}
+
+
+.footer {
+    background-color: rgb(42, 5, 82);
+}
+
+.footer {
+    display: flex;
+    margin: 23px 128px;
+}
+
+.footer-second ul li {
+    list-style: none;
+}
+
+.footer-second {
+    position: relative;
+    left: 700px;
+}
+
+.footer-right {
+    position: relative;
+    left: 35%;
+    color: gray;
+}
